@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-  <addon id="plugin.video.myseries" name="My-Series Online" version="1.0.0" provider-name="TVCHAK">
+  <addon id="plugin.video.myseries" name="My-Series Online" version="1.0.0" provider-name="TVCHAK" type="xbmc.python.plugin">
     <extension point="xbmc.python.pluginsource" library="default.py">
       <provides>video</provides>
     </extension>
