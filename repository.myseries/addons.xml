@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <addons>
-  <addon id="plugin.video.myseries" name="My-Series Online" version="1.0.0" provider-name="TVCHAK" type="xbmc.python.plugin">
-    <extension point="xbmc.python.pluginsource" library="default.py">
-      <provides>video</provides>
-    </extension>
+  <addon id="plugin.video.myseries" name="My Series" version="1.0.0" provider-name="TVCHAK">
+    <extension point="xbmc.python.pluginsource" library="main.py" />
     <extension point="xbmc.addon.metadata">
-      <summary>ดูซีรีส์และหนังออนไลน์จาก My-Series.com</summary>
-      <description>Addon ดูออนไลน์เท่านั้น ไม่มีการดาวน์โหลด</description>
+      <summary>My Series Add-on</summary>
+      <description>แสดงรายการซีรีส์ตัวอย่าง</description>
       <platform>all</platform>
-      <language>th</language>
     </extension>
   </addon>
 </addons>
