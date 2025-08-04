@@ -1,6 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <addons>
   <addon id="plugin.video.myseries" name="My Series" version="1.0.0" provider-name="TVCHAK">
-    <extension point="xbmc.python.pluginsource" library="main.py" />
+    <extension point="xbmc.python.pluginsource" library="default.py" />
+    <requires>
+      <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
     <extension point="xbmc.addon.metadata">
       <summary>My Series Add-on</summary>
       <description>ตัวอย่าง Addon แสดงวิดีโอซีรีส์</description>
