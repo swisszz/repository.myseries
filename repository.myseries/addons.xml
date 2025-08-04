@@ -3,7 +3,7 @@
     <extension point="xbmc.python.pluginsource" library="main.py" />
     <extension point="xbmc.addon.metadata">
       <summary>My Series Add-on</summary>
-      <description>แสดงรายการซีรีส์ตัวอย่าง</description>
+      <description>ตัวอย่าง Addon แสดงวิดีโอซีรีส์</description>
       <platform>all</platform>
     </extension>
   </addon>
